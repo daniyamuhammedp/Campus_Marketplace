@@ -1,4 +1,4 @@
-# 📚 Campus Marketplace for Books
+#  Campus Marketplace for Books
 
 A Django and Django REST Framework project where students can list, buy, sell, or exchange textbooks, reference books, and academic notes.
 
