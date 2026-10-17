@@ -1,11 +1,39 @@
-Campus Marketplace Books
-Summary
+# 📚 Campus Marketplace for Books
 
-Campus Marketplace for Books — planned Django+DRF hybrid project covering full Django topic list (models, views, templates, auth, sessions, admin) plus DRF (serializers, viewsets, routers)
+A Django and Django REST Framework project where students can list, buy, sell, or exchange textbooks, reference books, and academic notes.
 
-Details
-Decided on theme: Campus Marketplace for books (students post books to sell/exchange on campus)
-Scope isn't limited to textbooks — also includes reference books, library books, and important sheets/notes
-Goal: use it to practice her full Django topic list end-to-end (project/app setup, DB connection, MVT, models, migrations, views FBV+CBV, ORM/CRUD, URL config, templates, static/media, image processing, admin panel, forms/model forms, auth, registration/login, sessions/cookies) plus DRF (serializers, viewsets, generics, routers)
-Core books app is built and confirmed working: models (Book/Category), admin, forms, FBV+CBV views, urls, DRF serializers/viewsets/router, session-based recently-viewed, Pillow thumbnail generation, and minimal templates
-Still remaining: accounts app (signup/login) and styling
+## Features
+- Book and Category management
+- CRUD operations using Django ORM
+- Function-Based Views (FBVs) and Class-Based Views (CBVs)
+- Django templates, forms, and admin panel
+- Book image uploads and thumbnail generation using Pillow
+- Session-based recently viewed books
+- REST APIs using serializers, ViewSets, and routers
+- User signup and login *(in progress)*
+
+## Tech Stack
+- Python
+- Django
+- Django REST Framework
+- SQLite / configured database
+- HTML, CSS
+- Pillow
+
+## Setup
+
+```bash
+git clone <your-repository-url>
+cd campus-marketplace
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+Open `http://127.0.0.1:8000/` to access the application.
+
+## Objective
+
+A hands-on project to practice Django fundamentals and REST API development by building a campus-focused academic book marketplace.
